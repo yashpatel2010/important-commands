@@ -3,11 +3,6 @@ If you want many python versions to run on the different environments then insta
 if you want to create the environment with the python 3.10 then set the path of python 3.10 to the highest of all and then run the
 following commands to create the virtual environment for the python 3.10 and respective kernal
 
-
-
-
-
-
 >> python -m venv newenv
 >> newenv\Scripts\activate
 >> pip install ipykernel
