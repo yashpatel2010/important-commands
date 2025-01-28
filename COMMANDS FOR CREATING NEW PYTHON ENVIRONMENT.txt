@@ -1,0 +1,57 @@
+If you want many python versions to run on the different environments then install all python versions in the system and then
+
+if you want to create the environment with the python 3.10 then set the path of python 3.10 to the highest of all and then run the
+following commands to create the virtual environment for the python 3.10 and respective kernal
+
+
+
+
+
+
+>> python -m venv newenv
+>> newenv\Scripts\activate
+>> pip install ipykernel
+>> python -m ipykernel install --user --name Mynewenv
+>> python --version
+
+
+
+
+
+
+============================================================================================================================================
+
+Packages installed in the python
+
+>> !pip list
+
+
+packages installed/used in the particular project
+
+>> !pip freeze
+
+if you want to save all packages in one file then use 
+>> !pip freeze > requirements.txt
+	
+if you want to install all packages from the requirement.txt then use
+>> !pip install -r requirements.txt
+
+
+============================================================================================================================
+
+To delete downloaded hugging face models
+
+go to C:\Users\patel.i\.cache\huggingface
+
+==============================================================================================================================
+
+To uninstall the downloaded python packages
+
+>> pip list
+>> pip uninstall package_name==versionno
+
+
+
+	
+
+
